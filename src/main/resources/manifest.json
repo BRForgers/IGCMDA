@@ -1,0 +1,19 @@
+{
+  "Group": "armelin1",
+  "Name": "In-game Chat Memory Discovery Announcer",
+  "Version": "1.0.0",
+  "Description": "Add a chat message when the player discovers a memory.",
+  "Authors": [
+    {
+      "Name": "armelin1"
+    }
+  ],
+  "ServerVersion": "*",
+  "Main": "one.armelin.igcmda.IGCMDA",
+  "Dependencies": {
+    "Hytale:Memories": "*"
+  },
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true
+}
