@@ -92,9 +92,8 @@ public class BeforeGatherMemoriesSystem extends EntityTickingSystem<EntityStore>
                     : npc.getRoleName();
 
             String titleKey = role.getNameTranslationKey();
-            boolean overridden = role.isMemoriesNameOverriden();
 
-            NPCMemory temp = new NPCMemory(npcRole, titleKey, overridden);
+            NPCMemory temp = new NPCMemory(npcRole, titleKey);
             if (!MemoriesPlugin.get().hasRecordedMemory(temp)) {
                 if (!playerMemories.getRecordedMemories().contains(temp)) {
                     String playerName = playerComponent.getDisplayName();

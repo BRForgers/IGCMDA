@@ -1,7 +1,7 @@
 {
     "Group": "armelin1",
     "Name": "In-game Chat Memory Discovery Announcer",
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Description": "Add a chat message when the player discovers a memory.",
     "Authors": [
         {
